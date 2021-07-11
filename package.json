@@ -1,6 +1,6 @@
 {
   "name": "site",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +9,7 @@
     "postbuild": "cd ./dist && git init && git add . && git commit -m '更新了' && git branch -M main && git remote add origin https://github.com/ggdream/ggdream.github.io.git && git push -f origin main",
     "major": "npm version major -m '升级主版本号至%s' && git push origin --tags && npm run build",
     "minor": "npm version minor -m '升级次版本号至%s' && git push origin --tags && npm run build",
-    "patch": "npm version major -m '升级补丁号至%s' && git push origin --tags && npm run build"
+    "patch": "npm version patch -m '升级补丁号至%s' && git push origin --tags && npm run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
