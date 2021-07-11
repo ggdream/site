@@ -27,8 +27,8 @@ export default Vue.extend({
   data() {
     return {
       items: [
-          "http://qvgbcgfc6.hn-bkt.clouddn.com/insert/1.svg",
-          "http://qvgbcgfc6.hn-bkt.clouddn.com/insert/2.svg",
+          "/images/insert/1.svg",
+          "/images/insert/2.svg",
       ],
     };
   },

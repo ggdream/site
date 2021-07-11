@@ -43,13 +43,13 @@ export default Vue.extend({
         {
           title: '博客开业啦啦啦',
           datetime: '2021-07-11 13:42',
-          image: 'http://qvgbcgfc6.hn-bkt.clouddn.com/cover/0.jpeg',
+          image: '/images/cover/0.jpeg',
           url: 'https://www.google.com/',
         },
         {
           title: '搭建博客的路上',
           datetime: '2021-07-11 15:52',
-          image: 'http://qvgbcgfc6.hn-bkt.clouddn.com/cover/2.jpeg',
+          image: '/images/cover/2.jpeg',
           url: 'https://www.google.com/',
         },
       ],

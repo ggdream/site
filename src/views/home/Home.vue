@@ -7,7 +7,7 @@
       <swiper-slide
         v-for="(item, idx) in items"
         :key="idx"
-      ><show-img :url="`http://qvgbcgfc6.hn-bkt.clouddn.com/insert/${idx+1}.svg`" /></swiper-slide>
+      ><show-img :url="`/images/insert/${idx+1}.svg`" /></swiper-slide>
     </swiper>
   </div>
 </template>
