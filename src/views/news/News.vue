@@ -86,7 +86,7 @@ export default Vue.extend({
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(30deg,#98adda,#fcd2d3);
+  background: linear-gradient(30deg, #98adda, #fcd2d3);
 
   .cursor {
     cursor: pointer;

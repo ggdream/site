@@ -13,11 +13,7 @@
 
     <v-menu transition="scale-transition" origin="center center" offset-y>
       <template v-slot:activator="{ on, attrs }">
-        <v-avatar
-          class="avatar"
-          v-bind="attrs"
-          v-on="on"
-        >
+        <v-avatar class="avatar" v-bind="attrs" v-on="on">
           <img :src="avatar" alt="" />
         </v-avatar>
       </template>
@@ -54,9 +50,9 @@ export default Vue.extend({
   }),
   methods: {
     onClick(url: string): void {
-        window.open(url)
-      }
+      window.open(url)
     },
+  },
 })
 </script>
 

@@ -19,7 +19,7 @@ export default Vue.extend({
 <style scoped lang="scss">
 .show {
     width: 100%;
-    height: 70vh;
+    height: 64vh;
     margin: 5vh 0;
 }
 </style>

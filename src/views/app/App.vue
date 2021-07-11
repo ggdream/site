@@ -4,33 +4,29 @@
       :src="require('@/assets/icons/android.svg')"
       @click="onClickAndroid"
     />
-    <wrapper
-      :src="require('@/assets/icons/ios.svg')"
-      @click="onClickiOS"
-    />
+    <wrapper :src="require('@/assets/icons/ios.svg')" @click="onClickiOS" />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import Wrapper from "./Wrapper.vue";
+import Vue from 'vue'
+import Wrapper from './Wrapper.vue'
 
 export default Vue.extend({
-  name: "App",
+  name: 'App',
   components: { Wrapper },
   data() {
-    return {};
+    return {}
   },
   methods: {
     onClickAndroid(): void {
-        console.log('222');
-        
+      console.log('222')
     },
     onClickiOS(): void {
-      console.log(1111);
+      console.log(1111)
     },
   },
-});
+})
 </script>
 
 <style scoped lang="scss">

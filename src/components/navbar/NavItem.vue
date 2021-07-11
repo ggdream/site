@@ -1,23 +1,16 @@
 <template>
-  <v-btn
-    text
-    :to="to"
-    class="mx-1"
-  >
-    <span
-      class="caption"
-      :style="{fontWeight: isActive ? 'bold' : 'normal'}"
-    >
+  <v-btn text :to="to" class="mx-1">
+    <span class="caption" :style="{ fontWeight: isActive ? 'bold' : 'normal' }">
       {{ label }}
     </span>
   </v-btn>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue'
 
 export default Vue.extend({
-  name: "NavItem",
+  name: 'NavItem',
   props: {
     label: {
       type: String,
@@ -30,8 +23,8 @@ export default Vue.extend({
   },
   computed: {
     isActive(): boolean {
-      return this.$route.path.includes(this.to);
+      return this.$route.path.includes(this.to)
     },
   },
-});
+})
 </script>

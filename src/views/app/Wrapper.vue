@@ -1,24 +1,17 @@
 <template>
   <div class="wrapper">
-    <img
-      :src="src"
-      alt=""
-      draggable="false"
+    <img :src="src" alt="" draggable="false" />
+    <v-btn depressed color="#b8bedd" class="white--text" @click="onClick"
+      >点击下载</v-btn
     >
-    <v-btn
-      depressed
-      color="#b8bedd"
-      class="white--text"
-      @click="onClick"
-    >点击下载</v-btn>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue'
 
 export default Vue.extend({
-  name: "Wrapper",
+  name: 'Wrapper',
   props: {
     src: {
       type: String,
@@ -27,10 +20,10 @@ export default Vue.extend({
   },
   methods: {
     onClick(): void {
-      this.$emit("click");
+      this.$emit('click')
     },
   },
-});
+})
 </script>
 
 <style scoped lang="scss">

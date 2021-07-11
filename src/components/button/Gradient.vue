@@ -1,15 +1,11 @@
-<template>
-
-</template>
+<template> </template>
 
 <script lang="ts">
-import Vue from "vue"
+import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'Gradient'
+  name: 'Gradient',
 })
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

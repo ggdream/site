@@ -1,17 +1,13 @@
 <template>
-<div class="create">
-    
-</div>
+  <div class="create"></div>
 </template>
 
 <script lang="ts">
-import Vue from "vue"
+import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'Create'
+  name: 'Create',
 })
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

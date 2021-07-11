@@ -4,7 +4,10 @@
       <v-row class="px-8 my-2">
         <v-col cols="9" class="mt-2">
           <v-row><span class="text-h6">魔咔啦咔</span></v-row>
-          <v-row><v-icon size="14px">mdi-map-marker</v-icon><span class="text-caption">四川·成都 -- 2000.01</span></v-row>
+          <v-row
+            ><v-icon size="14px">mdi-map-marker</v-icon
+            ><span class="text-caption">四川·成都 -- 2000.01</span></v-row
+          >
         </v-col>
         <v-col cols="3">
           <v-avatar>
@@ -63,6 +66,6 @@ export default Vue.extend({
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(30deg,#98adda,#fcd2d3);
+  background: linear-gradient(30deg, #98adda, #fcd2d3);
 }
 </style>
