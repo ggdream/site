@@ -6,7 +6,6 @@ module.exports = {
         nav: [
             {
                 text: '开源专区',
-                // link: '/open/',
                 items: [
                     {
                         text: 'OpenIM',
