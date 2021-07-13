@@ -5,12 +5,12 @@ interface RouteMap {
 
 const map: Array<RouteMap> = [
     {
-        label: '关于我滴',
-        to: '/about'
-    },
-    {
         label: '最新动态',
         to: '/news'
+    },
+    {
+        label: '教程收录',
+        to: '/collect'
     },
     {
         label: '开源专区',
