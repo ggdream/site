@@ -50,11 +50,13 @@ export default Vue.extend({
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
+  background: linear-gradient(30deg, #98adda, #fcd2d3);
 }
 
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+  background: linear-gradient(30deg, #98adda, #fcd2d3);
 }
 
 .music {
