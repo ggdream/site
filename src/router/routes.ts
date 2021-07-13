@@ -32,6 +32,10 @@ const routes: Array<RouteConfig> = [
         path: '/open',
         component: () => import('@/views/open/Open.vue')
     },
+    {
+        path: '*',
+        redirect: '/'
+    }
 ]
 
 export default routes
