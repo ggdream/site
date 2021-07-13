@@ -12,14 +12,19 @@ module.exports = {
     plugins: [
         ['@vuepress/back-to-top'],
         ['@vuepress/nprogress'],
-        '@vuepress/pwa',
-        {
-            serviceWorker: true,
-            updatePopup: true,
-        },
+        // '@vuepress/pwa',
+        // {
+        //     serviceWorker: true,
+        //     updatePopup: true,
+        // },
     ],
-    head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ],
+    // head: [
+    //     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    //     ['link', { rel: 'manifest', href: '/manifest.json' }],
+    // ],
+    locales: {
+        '/': {
+            lang: 'zh-CN',
+        }
+    },
 }
