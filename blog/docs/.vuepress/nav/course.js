@@ -1,4 +1,4 @@
-const course = {
+module.exports = {
     text: '教程中心',
     link: '/course/',
     items: [
@@ -22,32 +22,3 @@ const course = {
         }
     ],
 }
-
-const open = {
-    text: '开源专区',
-    items: [
-        {
-            text: 'OpenIM',
-            link: '/open/openim/',
-        },
-        {
-            text: 'Deve',
-            link: '/open/deve/',
-        },
-        {
-            text: 'SoftDB',
-            link: '/open/softdb/',
-        },
-    ]
-}
-
-const create = {
-    text: '创作专区',
-    link: '/create/',
-}
-
-module.exports = [
-    course,
-    open,
-    create,
-]
