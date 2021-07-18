@@ -1,7 +1,7 @@
 <template>
   <v-footer dark class="footer">
     <div class="slogan subtitle-2 fcolor">
-      虽然很渺小，双手却依然紧握
+        茕茕孑立，生生不息
     </div>
     <div class="caption fcolor">
       © 2021 魔咔啦咔 版权所有 &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp;

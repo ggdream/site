@@ -4,7 +4,7 @@ module.exports = {
   ],
   chainWebpack: config => {
       config.plugin('html').tap(args => {
-          args[0].title = '【魔咔啦咔】我们都一样，被灌输了太多泡沫'
+          args[0].title = '【魔咔啦咔】茕茕孑立，生生不息'
           return args
       })
   },
