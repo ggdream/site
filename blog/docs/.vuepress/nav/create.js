@@ -21,18 +21,8 @@ const sketch = {
     link: '/create/sketch/',
 }
 
-const redis = {
-    text: 'Redis',
-    items: [
-        {
-            text: '基础知识',
-            link: '/create/redis/1.md',
-        },
-    ],
-}
-
 module.exports = {
     text: '创作专区',
     link: '/create/',
-    items: [beauty, sketch, redis,]
+    items: [beauty, sketch,]
 }
