@@ -6,10 +6,12 @@ module.exports = {
     themeConfig: {
         nav: require('./nav'),
         sidebar: 'auto',
+        lastUpdated: '最新更新时间',
     },
     plugins: [
         ['@vuepress/back-to-top'],
         ['@vuepress/nprogress'],
+        ['@vuepress/last-updated'],
     ],
     locales: {
         '/': {

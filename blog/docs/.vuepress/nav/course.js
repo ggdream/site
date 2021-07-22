@@ -1,18 +1,18 @@
 const scss = {
-    text: 'SCSS',
+    text: 'Scss',
     link: '/course/scss/',
     items: [
         {
-            text: '1.相关介绍',
-            link: '/course/scss/1',
+            text: '① 相关介绍',
+            link: '/course/scss/introduce',
         },
         {
-            text: '2.环境配置',
-            link: '/course/scss/2',
+            text: '② 环境配置',
+            link: '/course/scss/env',
         },
         {
-            text: '3.SassScript',
-            link: '/course/scss/3',
+            text: '③ SassScript',
+            link: '/course/scss/sassscript',
         },
     ],
 }
@@ -59,8 +59,27 @@ const redis = {
     ],
 }
 
+const sanic = {
+    text: 'Sanic',
+    link: '/course/sanic/',
+    items: [
+        {
+            text: '① 基础知识',
+            link: '/course/sanic/basic.md',
+        },
+        {
+            text: '② 最佳实践',
+            link: '/course/sanic/practice.md',
+        },
+    ],
+}
+
 module.exports = {
     text: '教程中心',
     link: '/course/',
-    items: [scss, redis,],
+    items: [
+        scss,
+        redis,
+        sanic,
+    ],
 }
