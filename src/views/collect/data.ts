@@ -120,19 +120,11 @@ export default {
         },
         {
             icon: "vue",
-            name: "Vue.js-2.x",
+            name: "Vue.js",
             type: "应用框架",
             platform: "bilibili",
-            url: "https://www.bilibili.com/video/BV15741177Eh",
-            note: "李南江->王红元"
-        },
-        {
-            icon: "vue",
-            name: "Vue.js-3.0",
-            type: "应用框架",
-            platform: "bilibili",
-            url: "https://www.bilibili.com/video/BV14k4y117LL",
-            note: ""
+            url: "https://www.bilibili.com/video/BV1Zy4y1K7SH",
+            note: "王红元->张天禹"
         },
         {
             icon: "vuetify",
